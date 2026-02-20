@@ -79,7 +79,7 @@
                             <div className="p-1 border-r border-gray-400 truncate">{packet.ipDest.split('.').slice(2).join('.')}</div>
                             <div className="p-1 truncate">{packet.ipOrig.split('.').slice(2).join('.')}</div>
                         </div>
-                        <div>
+                        <div className="grid grid-cols-2 border-b border-gray-400 text-center font-mono">
                             <div className="p-1 text-center font-bold text-blue-700 bg-white border-b border-gray-400">Pto: {packet.portOrig}</div>
                             <div className="p-1 text-center font-bold text-blue-700 bg-white border-b border-gray-400">Pto: {packet.portDest}</div>
                         </div>
